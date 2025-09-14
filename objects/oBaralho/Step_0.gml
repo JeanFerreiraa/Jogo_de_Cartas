@@ -1,14 +1,14 @@
 if mouse_check_button_pressed(mb_right){
-	
-	carta_selecionada.Esta_selecionada = false;
-	carta_selecionada = -1;
+	 if (carta_selecionada != -1 && instance_exists(carta_selecionada)) {
+        carta_selecionada.esta_selecionada = false;
+        carta_selecionada = -1;
+    }
 
-}
-
+} 
 
 if position_meeting(mouse_x, mouse_y, self){
 	if mouse_check_button_pressed(mb_left){
-		if ds_list_size(global.baralho > 0){
+		if ds_list_size(global.baralho) > 0 {
 			var _carta = global.baralho [| 0];
 			var _insta = instance_create_layer(mouse_x, mouse_y, "Instances", oCarta);
 			_insta.image_index = _carta - 1;

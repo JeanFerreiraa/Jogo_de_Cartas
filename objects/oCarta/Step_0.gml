@@ -1,4 +1,4 @@
-if (Esta_selecionada == true){
+if (esta_selecionada == true){
 	x = mouse_x;
 	y = mouse_y;
 }
