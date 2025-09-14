@@ -35,7 +35,11 @@
   },
   "name":"Jogo_de_cartas",
   "resources":[
+    {"id":{"name":"oBaralho","path":"objects/oBaralho/oBaralho.yy",},},
+    {"id":{"name":"oCarta","path":"objects/oCarta/oCarta.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_cartas_verso","path":"sprites/spr_cartas_verso/spr_cartas_verso.yy",},},
+    {"id":{"name":"spr_cartas","path":"sprites/spr_cartas/spr_cartas.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
