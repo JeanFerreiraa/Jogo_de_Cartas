@@ -36,3 +36,8 @@ if _insta_carta{
 if keyboard_check_pressed(ord("C")){
 	ds_list_sort(global.baralho, true);
 }
+
+//ordenar as cartas decrescente
+if keyboard_check_pressed(ord("D")){
+	ds_list_sort(global.baralho, false);
+}
