@@ -18,3 +18,8 @@ if position_meeting(mouse_x, mouse_y, self){
 		
 	}
 }
+//embaralhar
+if keyboard_check_pressed(ord("R")){
+	ds_list_shuffle(global.baralho);
+}
+
