@@ -32,4 +32,7 @@ if _insta_carta{
 	instance_destroy(_insta_carta);
 	}
 }
-
+//ordenar as cartas crescente
+if keyboard_check_pressed(ord("C")){
+	ds_list_sort(global.baralho, true);
+}
