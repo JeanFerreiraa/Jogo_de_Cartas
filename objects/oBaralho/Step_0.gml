@@ -1,8 +1,10 @@
 if mouse_check_button_pressed(mb_right){
-	carta_selecionada.selecionada = false;
+	
+	carta_selecionada.Esta_selecionada = false;
 	carta_selecionada = -1;
 
 }
+
 
 if position_meeting(mouse_x, mouse_y, self){
 	if mouse_check_button_pressed(mb_left){

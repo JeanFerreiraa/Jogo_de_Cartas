@@ -2,7 +2,7 @@
 
 global.baralho = ds_list_create();
 
-num_cartas = 8;
+num_cartas = 10;
 
 var _carta = 1;
 repeat(num_cartas){

@@ -1,1 +1,1 @@
-selecionada = true;
+Esta_selecionada = true;
